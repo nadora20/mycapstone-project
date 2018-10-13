@@ -1,0 +1,163 @@
+
+*{padding: 0;margin: 0;}
+body{
+  background: #777;
+  font-family: Arial;
+}
+h1{
+  font-size: 54px;
+}
+h2{
+  font-size: 18px;
+  font-weight: 500;
+}
+header{
+  
+ 
+background: rgb(37,141,200); 
+background: -moz-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); 
+background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 );
+  
+  color:#fff;
+  padding: 23px;
+ 
+  }
+div#content{
+
+background: rgb(255,255,255);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+ 
+  height:100%;
+  min-height: 420px;
+  padding:30px 50px;
+  
+
+}
+nav{
+ margin-top: 20px;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  margin: 0 5px;
+  display: inline-block;
+}
+ul a{
+  
+  font-weight:600;
+  font-size: 14px;
+  text-decoration: none;
+  display:block;
+  padding:10px 15px;
+  border-radius: 10px;
+  
+
+background: #45484d; 
+background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); 
+background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); 
+background: linear-gradient(to bottom, #45484d 0%,#000000 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); 
+  color:#eee;
+  margin:5px 0;
+}
+ul a:hover{
+
+background: rgb(125,126,125); 
+background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); 
+}
+
+form{
+  margin: 0 auto;
+}
+
+input[type="submit"]{
+background: #45484d; 
+background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); 
+background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); 
+background: linear-gradient(to bottom, #45484d 0%,#000000 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); 
+  
+  font-size: 17px;
+
+  padding: 11px 0;
+  cursor: pointer;
+  color: #eee;
+  font-weight: bold;
+  margin-left: 180px;
+}
+input[type="submit"]:hover{
+background: rgb(53,106,160);
+background: -moz-linear-gradient(top, rgba(53,106,160,1) 0%, rgba(53,106,160,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); 
+background: linear-gradient(to bottom, rgba(53,106,160,1) 0%,rgba(53,106,160,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', endColorstr='#356aa0',GradientType=0 ); 
+  border: 1px solid #eee;
+  color:#eee;
+}
+input[name="first_name"],input[name="last_name"]{
+  width: 150px;
+}
+input[name="username"]{
+  width: 180px;
+}
+input[name="password"],input[name="cpassword"]{
+  width: 190px;
+}
+fieldset{
+  padding: 30px 50px;
+  border-radius: 30px;
+}
+legend{
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+form > p{
+  clear: both;
+  margin: 10px 0;
+}
+form >p >label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    padding:10px;
+    margin-right: 10px;
+}
+form >p>input{
+   display: inline-block;
+   float: left;
+   padding:10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.5);
+  background: rgba(255,255,255,0.5);
+  width: 250px;
+
+
+}
+form >p >span{
+  color: red;
+  padding-left: 15px;
+  padding-top: 14px;
+
+  display: inline-block;
+}
+footer{
+  text-align: center;
+  padding: 30px 0;
+  color: #ddd;
+
+background: rgba(0,0,0,0.5);
+}
